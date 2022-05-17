@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klawiatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="keyboard1">
+        <div class="nameKey">
+            <h1>Virtual Keyboard</h1>
+        </div>
+        <div class="area">
+            <textarea name="text" id="textArea"></textarea>
+        </div>
+        <div class="keyboard2">
+            <div class="row">
+                <button onclick="setValue(event)" value="1" class="keyboard">1</button>
+                <button onclick="setValue(event)" value="2" class="keyboard">2</button>
+                <button onclick="setValue(event)" value="3" class="keyboard">3</button>
+                <button onclick="setValue(event)" value="4" class="keyboard">4</button>
+                <button onclick="setValue(event)" value="5" class="keyboard">5</button>
+                <button onclick="setValue(event)" value="6" class="keyboard">6</button>
+                <button onclick="setValue(event)" value="7" class="keyboard">7</button>
+                <button onclick="setValue(event)" value="8" class="keyboard">8</button>
+                <button onclick="setValue(event)" value="9" class="keyboard">9</button>
+                <button onclick="setValue(event)" value="0" class="keyboard">0</button>
+                <button onclick="backspace(event)" type="button" class="keyboard backspace">←</button>
+            </div>
+            <div class="row">
+                <button onclick="setValue(event)" value="Q" class="keyboard">Q</button>
+                <button onclick="setValue(event)" value="W" class="keyboard">W</button>
+                <button onclick="setValue(event)" value="E" class="keyboard">E</button>
+                <button onclick="setValue(event)" value="R" class="keyboard">R</button>
+                <button onclick="setValue(event)" value="T" class="keyboard">T</button>
+                <button onclick="setValue(event)" value="Y" class="keyboard">Y</button>
+                <button onclick="setValue(event)" value="U" class="keyboard">U</button>
+                <button onclick="setValue(event)" value="I" class="keyboard">I</button>
+                <button onclick="setValue(event)" value="O" class="keyboard">O</button>
+                <button onclick="setValue(event)" value="P" class="keyboard">P</button>
+                <button onclick="setValue(event)" value="[" class="keyboard">[</button>
+                <button onclick="setValue(event)" value="]" class="keyboard">]</button>
+                <button onclick="setValue(event)" value="\" class="keyboard">\</button>
+                <button onclick="clean(event)" type="button" class="keyboard clean">CLEAN</button>
+            </div>
+            <div class="row">
+                <button onclick="capsLock(event)" id="capslock" type="button" class="keyboard key_active">CAPS LOCK ⇫</button>
+                <button onclick="setValue(event)" value="A" class="keyboard">A</button>
+                <button onclick="setValue(event)" value="S" class="keyboard">S</button>
+                <button onclick="setValue(event)" value="D" class="keyboard">D</button>
+                <button onclick="setValue(event)" value="F" class="keyboard">F</button>
+                <button onclick="setValue(event)" value="G" class="keyboard">G</button>
+                <button onclick="setValue(event)" value="H" class="keyboard">H</button>
+                <button onclick="setValue(event)" value="J" class="keyboard">J</button>
+                <button onclick="setValue(event)" value="K" class="keyboard">K</button>
+                <button onclick="setValue(event)" value="L" class="keyboard">L</button>
+                <button onclick="setValue(event)" value="W" class="keyboard">W</button>
+                <button onclick="setValue(event)" value=";" class="keyboard">;</button>
+                <button onclick="setValue(event)" value=":" class="keyboard">:</button>
+                <button onclick="setValue(event)" value="'" class="keyboard">'</button>
+                <button onclick="newline(event)" type="button" class="keyboard enter">ENTER ⏎</button>
+            </div>
+            <div class="row">
+                <button onclick="setValue(event)" value="Z" class="keyboard">Z</button>
+                <button onclick="setValue(event)" value="X" class="keyboard">X</button>
+                <button onclick="setValue(event)" value="C" class="keyboard">C</button>
+                <button onclick="setValue(event)" value="V" class="keyboard">V</button>
+                <button onclick="setValue(event)" value="B" class="keyboard">B</button>
+                <button onclick="setValue(event)" value="N" class="keyboard">N</button>
+                <button onclick="setValue(event)" value="M" class="keyboard">M</button>
+                <button onclick="setValue(event)" value="," class="keyboard">,</button>
+                <button onclick="setValue(event)" value="." class="keyboard">.</button>
+                <button onclick="setValue(event)" value="/" class="keyboard">/</button>                
+            </div>    
+            <div class="row">
+                <button onclick="setValue(event)" value=" " type="button" class="keyboard space">SPACE</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
