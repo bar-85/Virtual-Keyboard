@@ -1,4 +1,4 @@
-# Virtual Keyboard
+ <h1 align="center"> Virtual Keyboard </h1>
 
 >Virtual Keyboard można zobaczyć pod adresem: https://bar-85.github.io/Virtual-Keyboard/
 
