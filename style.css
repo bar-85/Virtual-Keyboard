@@ -4,11 +4,10 @@
 body {
     font-family: "Barlow", sans-serif;
     background-color:aliceblue;
-    line-height: 1.7;
 }
 
 .keyboard1  {
-    font-size: 25px;
+    font-size: 22px;
     background-color:rgb(255, 254, 252); 
 }
 
@@ -25,13 +24,14 @@ h1 {
 }
 
 textarea {
-    width: 60%;
-    height: 300px;
+    width: 90%;
+    height: 200px;
     font-size: 20px;
     background-color: #d6edfb;
     color:black;
     border: 2px solid rgb(52, 68, 244);
-    border-radius: 5px;
+    border-radius: 20px;
+    margin-bottom: 2px;
 }
 
 .area {
@@ -46,7 +46,7 @@ textarea {
 }
 
 .keyboard {
-    font-size: 28px;
+    font-size: 20px;
     color: rgb(154, 204, 251);
 }
 
@@ -56,6 +56,7 @@ button {
     outline: none;
     background: #242423;
     border-radius: 5px;
+    margin: 0.3px;
 }
 
 button:hover{
