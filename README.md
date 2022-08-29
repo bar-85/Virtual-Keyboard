@@ -9,5 +9,8 @@
 * JavaScript
 
 
-![virt](https://user-images.githubusercontent.com/105555319/168904112-c9ad76c4-b240-4340-aa6f-5f3de21eb90a.png)
+![Screenshot_1](https://user-images.githubusercontent.com/105555319/187284722-b206957c-5607-4491-9ee9-b7533a9e13e0.png)
+![Screenshot_2](https://user-images.githubusercontent.com/105555319/187284760-be4bf664-69e8-4446-967b-0b8cea81e26f.png)
+
+
 
